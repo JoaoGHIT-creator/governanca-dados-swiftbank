@@ -1,0 +1,46 @@
+id_cliente,nome_completo,data_nascimento,tipo_pessoa,segmento,data_abertura_conta,status_conta,produto_principal,cidade,consentimento_marketing
+CLI001,Ana Ribeiro,1990-04-12,PF,Varejo,2021-03-15,Ativa,Conta Corrente,Recife,Sim
+CLI002,Bruno Salles,1985-11-02,PF,Premium,2019-06-20,Ativa,Investimento,São Paulo,Sim
+CLI003,Carla Tavares,1978-02-25,PF,Varejo,2020-01-10,Inativa,Cartão,Curitiba,Não
+CLI004,Diego Monteiro,1995-09-30,PF,Varejo,2022-07-05,Ativa,Empréstimo,Belo Horizonte,Sim
+CLI005,Elis Prado,1988-12-19,PF,Premium,2018-04-22,Ativa,Conta Corrente,Porto Alegre,Sim
+CLI006,Felipe Borges,2000-05-08,PF,Varejo,2023-01-18,Ativa,Cartão,Salvador,Não
+CLI007,Construtora Norte LTDA,2010-08-14,PJ,Empresarial,2017-09-12,Ativa,Conta Corrente,Manaus,Sim
+CLI008,Helena Costa,1992-07-22,PF,Varejo,2021-11-30,Encerrada,Conta Corrente,Fortaleza,Não
+CLI009,Igor Almeida,1983-03-04,PF,Premium,2016-02-09,Ativa,Investimento,Rio de Janeiro,Sim
+CLI010,Joana Vieira,1997-10-16,PF,Varejo,2022-05-25,Ativa,Cartão,Goiânia,Sim
+CLI011,Kléber Rocha,1975-06-29,PF,Varejo,2019-12-01,Inativa,Empréstimo,Vitória,Não
+CLI012,Larissa Souza,2001-01-11,PF,Varejo,2023-08-08,Ativa,Cartão,Florianópolis,Sim
+CLI013,Marcos Dias,1986-04-05,PF,Premium,2015-10-19,Ativa,Investimento,Brasília,Sim
+CLI014,Tech Sul Comercio,2015-03-21,PJ,Empresarial,2020-06-30,Ativa,Empréstimo,Curitiba,Sim
+CLI015,Olivia Campos,1993-08-17,PF,Varejo,2021-02-14,Ativa,Conta Corrente,Natal,Não
+CLI016,Paulo Henrique Lima,1980-11-26,PF,Varejo,2018-08-03,Encerrada,Cartão,Maceió,Não
+CLI017,Quésia Martins,1996-02-07,PF,Varejo,2022-12-12,Ativa,Cartão,Aracaju,Sim
+CLI018,Rafael Andrade,1989-09-09,PF,Premium,2017-04-27,Ativa,Investimento,São Luís,Sim
+CLI019,Sabrina Queiroz,1998-06-15,PF,Varejo,2023-03-03,Ativa,Conta Corrente,Teresina,Não
+CLI020,Agroindustrial Verde SA,2008-05-19,PJ,Empresarial,2014-11-05,Ativa,Investimento,Cuiabá,Sim
+CLI021,Tiago Ferreira,1991-01-23,PF,Varejo,2020-09-09,Inativa,Cartão,Belém,Não
+CLI022,Ursula Neves,1984-07-30,PF,Premium,2016-07-18,Ativa,Investimento,Campo Grande,Sim
+CLI023,Vinícius Paiva,1999-12-04,PF,Varejo,2023-10-21,Ativa,Empréstimo,João Pessoa,Sim
+CLI024,Wanda Pacheco,1977-03-08,PF,Varejo,2019-05-16,Ativa,Conta Corrente,Palmas,Não
+CLI025,Xavier Lopes,1994-10-13,PF,Varejo,2021-07-07,Encerrada,Cartão,Boa Vista,Não
+CLI026,Yara Cunha,2002-04-29,PF,Varejo,2023-11-15,Ativa,Conta Corrente,Macapá,Sim
+CLI027,Zé Roberto Pinto,1973-08-21,PF,Varejo,2017-03-22,Ativa,Empréstimo,Rio Branco,Sim
+CLI028,Loja Bom Café ME,2018-09-12,PJ,Empresarial,2021-04-04,Ativa,Conta Corrente,Porto Velho,Sim
+CLI029,Beatriz Moura,1987-05-06,PF,Premium,2015-11-11,Ativa,Investimento,São Paulo,Sim
+CLI030,Camila Sá,1992-02-18,PF,Varejo,2020-10-28,Ativa,Cartão,Recife,Não
+CLI031,Daniel Tavares,1995-07-14,PF,Varejo,2022-02-02,Ativa,Cartão,São Paulo,Sim
+CLI032,Editora Letra Viva,2012-12-01,PJ,Empresarial,2019-03-10,Inativa,Conta Corrente,Curitiba,Não
+CLI033,Fátima Lopes,1981-10-25,PF,Varejo,2018-01-31,Ativa,Empréstimo,Salvador,Sim
+CLI034,Gustavo Reis,1990-03-11,PF,Premium,2016-05-25,Ativa,Investimento,Belo Horizonte,Sim
+CLI035,Heloísa Pires,1998-08-08,PF,Varejo,2023-06-17,Ativa,Conta Corrente,Fortaleza,Não
+CLI036,Ícaro Mendes,1986-06-21,PF,Varejo,2020-04-13,Ativa,Cartão,Recife,Sim
+CLI037,Janaína Rolim,1993-11-29,PF,Varejo,2021-12-20,Encerrada,Cartão,Natal,Não
+CLI038,Construir Mais EIRELI,2016-07-07,PJ,Empresarial,2022-08-08,Ativa,Empréstimo,Vitória,Sim
+CLI039,Lúcia Falcão,1979-04-04,PF,Premium,2014-10-02,Ativa,Investimento,Rio de Janeiro,Sim
+CLI040,Murilo Antunes,2000-12-12,PF,Varejo,2023-09-25,Ativa,Cartão,Florianópolis,Sim
+CLI041,Natália Bastos,1991-05-19,PF,Varejo,2020-03-30,Inativa,Conta Corrente,Goiânia,Não
+CLI042,Otávio Camelo,1984-09-23,PF,Varejo,2017-12-15,Ativa,Empréstimo,Brasília,Sim
+CLI043,Patrícia Mello,1996-01-31,PF,Varejo,2022-06-06,Ativa,Cartão,Manaus,Não
+CLI044,Quirino Sobrinho,1972-02-14,PF,Varejo,2015-08-19,Ativa,Conta Corrente,São Paulo,Sim
+CLI045,Renata Moreira,1989-07-27,PF,Premium,2018-11-09,Ativa,Investimento,Curitiba,Sim

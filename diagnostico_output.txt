@@ -1,0 +1,40 @@
+Linhas lidas: 38 
+
+(a) Completude por campo
+            campo  completude_%
+        descricao          89.5
+confidencialidade          86.8
+     dado_pessoal          92.1
+      responsavel          81.6 
+
+(b) Linhas com camada fora da lista: 1
+             tabela        coluna    camada
+gd_metricas_credito modelo_versao dashboard 
+
+(c) Descrições com 3 palavras ou menos: 12
+             tabela          coluna                descricao
+        bz_clientes data_nascimento                     Data
+        sl_clientes   nome_completo          Nome do cliente
+        sl_clientes          cidade                   Cidade
+ gd_clientes_ativos data_referencia                     Data
+      bz_transacoes    id_transacao          ID da transação
+      bz_transacoes            tipo                     Tipo
+      sl_transacoes      id_cliente Identificador do cliente
+      sl_transacoes       categoria                Categoria
+gd_metricas_credito data_referencia                     Data
+     bz_emprestimos   id_emprestimo                       ID
+     bz_emprestimos      id_cliente            ID do cliente
+     bz_emprestimos     prazo_meses                    Prazo 
+
+(d) Ranking de tabelas (pior qualidade primeiro)
+ posicao              tabela  colunas  campos_vazios  camada_invalida  descricao_curta  problemas  indice_problemas_%
+       1      bz_emprestimos        4              2                0                3          5                20.8
+       2         sl_clientes        5              4                0                2          6                20.0
+       3       bz_transacoes        5              3                0                2          5                16.7
+       4      sl_emprestimos        5              4                0                0          4                13.3
+       5       sl_transacoes        5              2                0                2          4                13.3
+       6         bz_clientes        5              2                0                1          3                10.0
+       7 gd_metricas_credito        5              1                1                1          3                10.0
+       8  gd_clientes_ativos        4              1                0                1          2                 8.3 
+
+Extra: colunas com dado_pessoal divergente entre tabelas: ['id_cliente']

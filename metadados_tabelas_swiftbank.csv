@@ -1,0 +1,39 @@
+tabela,camada,coluna,descricao,tipo_dado,confidencialidade,dado_pessoal,responsavel
+bz_clientes,bronze,id_cliente,Identificador único do cliente,string,restrito,Não,Marina Souza
+bz_clientes,bronze,nome_completo,Nome completo do cliente,string,confidencial,Sim,Marina Souza
+bz_clientes,bronze,cpf,,string,confidencial,Sim,
+bz_clientes,bronze,data_nascimento,Data,date,confidencial,Sim,Marina Souza
+bz_clientes,bronze,email,E-mail informado pelo cliente no cadastro,string,confidencial,Sim,Marina Souza
+sl_clientes,silver,id_cliente,Identificador único do cliente após harmonização,string,restrito,Não,Marina Souza
+sl_clientes,silver,nome_completo,Nome do cliente,string,confidencial,Sim,Marina Souza
+sl_clientes,silver,idade,Idade calculada a partir da data de nascimento na data de referência,int,restrito,Sim,Marina Souza
+sl_clientes,silver,segmento,,string,,,
+sl_clientes,silver,cidade,Cidade,string,restrito,Não,Marina Souza
+gd_clientes_ativos,gold,id_cliente,Identificador único do cliente,string,restrito,Não,Marina Souza
+gd_clientes_ativos,gold,segmento,"Segmento comercial do cliente (Varejo, Premium, Empresarial)",string,restrito,Não,Marina Souza
+gd_clientes_ativos,gold,flag_ativo,Indicador se cliente é considerado ativo segundo a regra do glossário,int,restrito,Não,Marina Souza
+gd_clientes_ativos,gold,data_referencia,Data,date,aberto,Não,
+bz_transacoes,bronze,id_transacao,ID da transação,string,restrito,Não,Lucas Andrade
+bz_transacoes,bronze,id_cliente,ID do cliente que originou a transação,string,restrito,Não,Lucas Andrade
+bz_transacoes,bronze,valor,Valor monetário da transação em reais,decimal,confidencial,Não,Lucas Andrade
+bz_transacoes,bronze,data,,date,,,Lucas Andrade
+bz_transacoes,bronze,tipo,Tipo,string,restrito,Não,Lucas Andrade
+sl_transacoes,silver,id_transacao,Identificador da transação harmonizado,string,restrito,Não,Lucas Andrade
+sl_transacoes,silver,id_cliente,Identificador do cliente,string,restrito,Não,Lucas Andrade
+sl_transacoes,silver,valor_brl,Valor da transação em reais convertido a partir da moeda original,decimal,confidencial,Não,Lucas Andrade
+sl_transacoes,silver,data_efetivacao,Data em que a transação foi efetivada e liquidada na conta,date,restrito,Não,Lucas Andrade
+sl_transacoes,silver,categoria,Categoria,string,,Não,
+gd_metricas_credito,gold,id_cliente,Identificador único do cliente,string,restrito,Não,Patrícia Lemos
+gd_metricas_credito,gold,score_credito,Score de crédito calculado pelo modelo interno na data de referência,int,confidencial,Sim,Patrícia Lemos
+gd_metricas_credito,gold,faixa_score,"Faixa do score (baixo, médio, alto)",string,restrito,Sim,Patrícia Lemos
+gd_metricas_credito,gold,data_referencia,Data,date,aberto,Não,Patrícia Lemos
+gd_metricas_credito,dashboard,modelo_versao,Versão do modelo de score utilizado na execução,string,restrito,Não,
+bz_emprestimos,bronze,id_emprestimo,ID,string,restrito,Não,Roberto Vaz
+bz_emprestimos,bronze,id_cliente,ID do cliente,string,restrito,Sim,Roberto Vaz
+bz_emprestimos,bronze,valor_solicitado,Valor solicitado pelo cliente no momento da contratação do empréstimo,decimal,confidencial,Não,Roberto Vaz
+bz_emprestimos,bronze,prazo_meses,Prazo,int,,Não,
+sl_emprestimos,silver,id_emprestimo,Identificador único do empréstimo,string,restrito,Não,Roberto Vaz
+sl_emprestimos,silver,id_cliente,Identificador do cliente tomador,string,restrito,Sim,Roberto Vaz
+sl_emprestimos,silver,valor_aprovado,Valor efetivamente aprovado após análise de crédito,decimal,confidencial,Não,Roberto Vaz
+sl_emprestimos,silver,taxa_juros,Taxa de juros mensal aplicada ao contrato,decimal,restrito,Não,Roberto Vaz
+sl_emprestimos,silver,status,,string,,,
